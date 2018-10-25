@@ -14,6 +14,8 @@
 		C41EDBE02179E2440096A63C /* stack.swift in Sources */ = {isa = PBXBuildFile; fileRef = C41EDBDF2179E2440096A63C /* stack.swift */; };
 		C424C2F52179ADD800D17AE7 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = C424C2F42179ADD800D17AE7 /* main.swift */; };
 		C45241FB21816E0400584340 /* json.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45241FA21816E0400584340 /* json.swift */; };
+		C45241FD218172A100584340 /* SwiftFileGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45241FC218172A100584340 /* SwiftFileGenerator.swift */; };
+		C45241FF218172AE00584340 /* ObjectiveCFileGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C45241FE218172AE00584340 /* ObjectiveCFileGenerator.swift */; };
 		C4541793218001700097F26A /* generator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C4541792218001700097F26A /* generator.swift */; };
 /* End PBXBuildFile section */
 
@@ -38,6 +40,8 @@
 		C424C2F12179ADD800D17AE7 /* fit */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = fit; sourceTree = BUILT_PRODUCTS_DIR; };
 		C424C2F42179ADD800D17AE7 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		C45241FA21816E0400584340 /* json.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = json.swift; sourceTree = "<group>"; };
+		C45241FC218172A100584340 /* SwiftFileGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftFileGenerator.swift; sourceTree = "<group>"; };
+		C45241FE218172AE00584340 /* ObjectiveCFileGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectiveCFileGenerator.swift; sourceTree = "<group>"; };
 		C4541792218001700097F26A /* generator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = generator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -60,6 +64,8 @@
 				C41EDBDF2179E2440096A63C /* stack.swift */,
 				C41EDBDD2179D8F70096A63C /* config.swift */,
 				C4541792218001700097F26A /* generator.swift */,
+				C45241FC218172A100584340 /* SwiftFileGenerator.swift */,
+				C45241FE218172AE00584340 /* ObjectiveCFileGenerator.swift */,
 			);
 			path = fate;
 			sourceTree = "<group>";
@@ -156,12 +162,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C45241FD218172A100584340 /* SwiftFileGenerator.swift in Sources */,
 				C41EDBDC2179D4C70096A63C /* error.swift in Sources */,
 				C424C2F52179ADD800D17AE7 /* main.swift in Sources */,
 				C41EDBC82179BAAA0096A63C /* SwiftyJSON.swift in Sources */,
 				C41EDBDE2179D8F70096A63C /* config.swift in Sources */,
 				C41EDBE02179E2440096A63C /* stack.swift in Sources */,
 				C4541793218001700097F26A /* generator.swift in Sources */,
+				C45241FF218172AE00584340 /* ObjectiveCFileGenerator.swift in Sources */,
 				C41EDBDA2179D36C0096A63C /* fate.swift in Sources */,
 				C45241FB21816E0400584340 /* json.swift in Sources */,
 			);

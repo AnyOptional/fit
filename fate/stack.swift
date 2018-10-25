@@ -44,7 +44,7 @@ extension Stack where E == String {
     
     static func +=(lhs: Stack<String>, rhs: String) {
         if lhs.isEmpty {
-            print("-fit: Stack is empty")
+            print("-fit: Stack is empty, += will be a non-op")
         } else {
             lhs._storage[lhs.count - 1] += rhs
         }

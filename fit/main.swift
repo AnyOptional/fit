@@ -25,7 +25,7 @@ do {
     ///     若前缀为NS，后缀为Model，那么data对应的对象名为 NSDataModel
     ///  -i -u 两个参数在 -t为Swift时有效，-u 是否使用嵌套类 -i 是否忽略类名前缀
     ///  -c YYModel中NSObject并未遵守YYModel协议，MJExtension中都遵守了MJKeyValue -c指明在使用YYModel时是否需要让类遵守YYModel协议
-    let args = "fit \(filePath) -t Swift -o MyModel -f MJExtension -p MAS -s Model -i no -u no -c yes"
+    let args = "fit \(filePath) -t Swift -o YourModel -f MJExtension -p MAS -s Model -i no -u no -c yes"
     let arguments =  args.split(separator: " ").map { String($0) } // CommandLine.arguments
     let fate = try Fate(arguments)
     let ctx = Context(fate)
