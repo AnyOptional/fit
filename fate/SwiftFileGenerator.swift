@@ -188,6 +188,7 @@ extension SwiftFileGenerator: GeneratorType {
         }
         let lbrackets = bracketStack.joined()
         let rbrackets = lbrackets.map { _ in "]" }.joined()
+        bracketStack.pop()
         switch jsonValue.type {
         case .number:
             if strcmp(jsonValue.numberValue.objCType, NSIntEncodingType) == 0 {

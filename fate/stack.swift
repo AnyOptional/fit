@@ -24,7 +24,8 @@ class Stack<E> {
     }
     
     @discardableResult
-    func pop() -> E {
+    func pop() -> E? {
+        if isEmpty { return nil }
         return _storage.removeLast()
     }
     

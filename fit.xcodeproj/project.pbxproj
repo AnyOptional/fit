@@ -37,6 +37,7 @@
 		C41EDBDB2179D4C70096A63C /* error.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = error.swift; sourceTree = "<group>"; };
 		C41EDBDD2179D8F70096A63C /* config.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = config.swift; sourceTree = "<group>"; };
 		C41EDBDF2179E2440096A63C /* stack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = stack.swift; sourceTree = "<group>"; };
+		C424249D21830E110040D5A9 /* weibo.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = weibo.json; sourceTree = "<group>"; };
 		C424C2F12179ADD800D17AE7 /* fit */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = fit; sourceTree = BUILT_PRODUCTS_DIR; };
 		C424C2F42179ADD800D17AE7 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		C45241FA21816E0400584340 /* json.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = json.swift; sourceTree = "<group>"; };
@@ -99,6 +100,7 @@
 		C424C2F32179ADD800D17AE7 /* fit */ = {
 			isa = PBXGroup;
 			children = (
+				C424249D21830E110040D5A9 /* weibo.json */,
 				C45241FA21816E0400584340 /* json.swift */,
 				C424C2F42179ADD800D17AE7 /* main.swift */,
 			);
